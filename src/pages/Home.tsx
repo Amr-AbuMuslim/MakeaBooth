@@ -129,7 +129,7 @@ export default function Home(): JSX.Element {
             >
               <p className="inline-flex items-center gap-2 text-sm font-medium text-muted-foreground mb-4">
                 <CheckCircle size={18} className="opacity-80" />
-                Transformers-First — Modular & premium
+                Leave your mark — Modular & premium
               </p>
 
               <h1 className="text-4xl md:text-5xl lg:text-5xl font-extrabold tracking-tight text-foreground leading-tight">
