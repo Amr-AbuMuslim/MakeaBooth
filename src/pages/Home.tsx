@@ -15,8 +15,9 @@ import {
   CheckCircle,
   Truck,
   Layers,
-  FileText,
+  Lightbulb,
   Phone,
+  ArrowRightLeft,
 } from "lucide-react";
 import { motion } from "framer-motion";
 
@@ -51,6 +52,11 @@ const benefits = [
     title: "Light & Portable",
     body: "Lightweight, engineered trusses reduce shipping and storage costs.",
   },
+  {
+    Icon: Lightbulb,
+    title: "Ultimate solution ",
+    body: "Use the same set-up for different booth spaces",
+  },
 ];
 
 const comparisons = [
@@ -62,7 +68,7 @@ const comparisons = [
       "Looks unprofessional at premium events",
     ],
     advantage:
-      "Transformers: stable, premium, flexible messaging and includes podium options.",
+      " stable, premium, flexible messaging and includes podium options.",
   },
   {
     heading: "Wooden / Custom Booths",
@@ -72,13 +78,13 @@ const comparisons = [
       "Heavy, difficult to transport; not eco-friendly",
     ],
     advantage:
-      "Transformers: ready in 3–4 hours, reusable, premium finish with lower lifetime cost.",
+      " ready in 3–4 hours, reusable, premium finish with lower lifetime cost.",
   },
   {
     heading: "Shell Schemes",
     problems: ["Generic look", "Very limited branding", "Low impact visuals"],
     advantage:
-      "Transformers: full design freedom, stronger branding, elegant premium visuals.",
+      " full design freedom, stronger branding, elegant premium visuals.",
   },
 ];
 
@@ -174,6 +180,10 @@ export default function Home(): JSX.Element {
                   <Clock size={18} className="opacity-80" />
                   Setup in 3–4 hours
                 </div>
+                <div className="flex items-center gap-3">
+                  <ArrowRightLeft size={18} className="opacity-80" />
+                  Use the same set-up for different booth spaces
+                </div>
               </div>
             </motion.div>
 
@@ -218,7 +228,7 @@ export default function Home(): JSX.Element {
       <section className="py-16 bg-white">
         <div className="max-w-7xl mx-auto px-6">
           <SectionTitle
-            title="Why Choose Transformers"
+            title="Why Choose Us"
             subtitle="Premium features that set us apart"
           />
 
@@ -265,7 +275,7 @@ export default function Home(): JSX.Element {
               className="bg-card rounded-2xl p-8 shadow-sm border border-border"
             >
               <h2 className="text-3xl font-bold text-foreground mb-4">
-                What is Transformers?
+                What is so unique about it?
               </h2>
               <p className="text-lg text-muted-foreground mb-4">
                 Transformers is an eco-friendly, modern display system crafted
@@ -380,8 +390,8 @@ export default function Home(): JSX.Element {
       <section className="py-16 bg-background">
         <div className="max-w-7xl mx-auto px-6">
           <SectionTitle
-            title="Transformers vs Other Options"
-            subtitle="See how Transformers outperforms pop-ups, wooden booths, and shell schemes"
+            title="Make A Booth vs Other Options"
+            subtitle="See how Make A Booth outperforms pop-ups, wooden booths, and shell schemes"
           />
 
           <div className="mt-8 grid grid-cols-1 md:grid-cols-3 gap-6">
@@ -406,7 +416,7 @@ export default function Home(): JSX.Element {
                 </ul>
                 <div className="mt-3 text-sm">
                   <strong className="text-foreground">
-                    Transformers Advantage:
+                    How are we better :
                   </strong>
                   <p className="text-muted-foreground mt-2">{c.advantage}</p>
                 </div>

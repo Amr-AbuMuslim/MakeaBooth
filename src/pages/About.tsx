@@ -45,10 +45,7 @@ export default function About() {
       {/* =========================
           PAGE HEADER
       ========================== */}
-      <PageHeader
-        title="About Transformers"
-        image="/10Edited.jpg"
-      />
+      <PageHeader title="About Us" image="/10Edited.jpg" />
 
       {/* =========================
           HERITAGE SECTION
@@ -61,19 +58,22 @@ export default function About() {
             </h2>
 
             <p className="text-lg text-muted-foreground mb-4 leading-relaxed">
-              Built on the legacy of Orange Solutions, established in 1997, we
-              proudly serve as the exclusive distributor of Transformers (Made
-              in Taiwan) in Egypt.
+              Born from decades of hands-on experience in the exhibition and
+              event industry, Make A Booth was created with one purpose: to
+              build a better, smarter, and more honest way of doing things.
             </p>
 
             <p className="text-lg text-muted-foreground mb-4 leading-relaxed">
-              With decades of mastery in event management and display systems,
-              we bring a blend of expertise, precision, and innovative design.
+              Our origins come from real industry challenges — overpriced custom
+              booths, unstable economic conditions, rising tariffs, and a market
+              flooded with low-quality imported modular systems that fail to
+              reflect true craftsmanship and values.
             </p>
 
             <p className="text-lg text-muted-foreground leading-relaxed">
-              Our solutions are crafted to deliver efficiency, elegance, and
-              modern design excellence.
+              We saw an industry weighed down by inflated costs, inconsistent
+              quality, and companies prioritizing profit instead of people. So
+              we set out to create something different.
             </p>
           </div>
 
@@ -106,9 +106,15 @@ export default function About() {
               Our Vision
             </h3>
             <p className="text-muted-foreground leading-relaxed">
-              Becoming the #1 brand in the Middle East & Africa for modern
-              display systems — empowering brands with elegant, modular, and
-              sustainable setups that elevate visibility and drive impact.
+              To become North America’s most trusted and forward-thinking
+              display system brand — one that elevates the exhibition experience
+              through fair pricing, better quality, modern modular design, and a
+              genuine respect for the workforce and clients we serve.
+            </p>
+
+            <p className="text-muted-foreground leading-relaxed mt-4">
+              We aim to reshape the industry with solutions that are honest,
+              sustainable, built to last, and rooted in real value.
             </p>
           </motion.div>
 
@@ -124,9 +130,21 @@ export default function About() {
               Our Mission
             </h3>
             <p className="text-muted-foreground leading-relaxed">
-              Delivering flexible, elegant, and cost-efficient display systems
-              that make every event easier, smarter, and more impressive —
-              helping clients engage audiences effortlessly.
+              To deliver high-quality, flexible, and cost-efficient booth
+              systems that respond directly to today’s economic and market
+              realities.
+            </p>
+
+            <p className="text-muted-foreground leading-relaxed mt-4">
+              We design with purpose, listen to customer needs, and create
+              displays that are easier to set up, more durable, and more
+              visually impressive — without unnecessary markups or compromises.
+            </p>
+
+            <p className="text-muted-foreground leading-relaxed mt-4">
+              Our mission is simple: Raise the standards. Treat people better.
+              Build smarter. Deliver real value. And we hope that difference is
+              clear in everything we create.
             </p>
           </motion.div>
         </div>

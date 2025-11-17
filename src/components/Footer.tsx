@@ -117,17 +117,11 @@ export default function Footer() {
           </p>
 
           <div className="flex gap-4">
-            <a href="#" className="hover:text-[#FEA537] transition-colors">
-              <Instagram size={20} />
-            </a>
             <a
               href="https://www.linkedin.com/company/make-a-booth"
               className="hover:text-[#FEA537] transition-colors"
             >
               <Linkedin size={20} />
-            </a>
-            <a href="#" className="hover:text-[#FEA537] transition-colors">
-              <Twitter size={20} />
             </a>
           </div>
         </div>

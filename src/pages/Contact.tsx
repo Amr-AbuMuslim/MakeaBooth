@@ -64,7 +64,7 @@ export default function Contact() {
       <Navbar />
 
       {/* ---------------- HEADER ---------------- */}
-      <PageHeader title="Contact Transformers" image="/Contact.jpg" />
+      <PageHeader title="Contact Us" image="/ContactUs.jpg" />
 
       {/* ---------------- FORM SECTION ---------------- */}
       <section className="py-20 px-4 bg-[#f8f7f4]">

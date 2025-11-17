@@ -180,7 +180,7 @@ export default function Products() {
     <>
       <Navbar />
 
-      <PageHeader title="Transformers Booth System" image="/Products.jpg" />
+      <PageHeader title="Our Product" image="/Products.jpg" />
 
       {/* Overview */}
       <section className="py-20 px-4 bg-background">
