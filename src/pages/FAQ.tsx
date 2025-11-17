@@ -103,7 +103,7 @@ const faqItems = [
       },
       {
         q: "How do I request a quote?",
-        a: "Contact us via email (sales@transformers-me.com), phone (+201110999646 / +201110999648), or WhatsApp. Our sales team will provide customized quotes within 24 hours.",
+        a: "Contact us via email (Marketing@makeabooth.com), phone (+(315) 512-5452), or WhatsApp. Our sales team will provide customized quotes within 24 hours.",
       },
       {
         q: "What areas do you service?",
@@ -170,7 +170,11 @@ export default function FAQ() {
     <>
       <Navbar />
 
-      <PageHeader title="Frequently Asked Questions" image="/FAQ.jpg" position="top"/>
+      <PageHeader
+        title="Frequently Asked Questions"
+        image="/FAQ.jpg"
+        position="top"
+      />
 
       <section className="py-20 px-4 bg-background">
         <div className="max-w-4xl mx-auto">
