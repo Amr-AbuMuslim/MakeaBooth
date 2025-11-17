@@ -107,7 +107,7 @@ const faqItems = [
       },
       {
         q: "What areas do you service?",
-        a: "As the sole distributor of Transformers in Egypt and the MENA region, we serve the entire Middle East & Africa. International shipping is available upon request.",
+        a: "As the sole distributor of Transformers in North American and the MENA region, we serve the entire Middle East & Africa. International shipping is available upon request.",
       },
     ],
   },
