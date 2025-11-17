@@ -35,9 +35,6 @@ export const booths = [
       "U SHAPE BOOTH / Podium Included",
       "Wooden Sign (70×30 CM / vinyl print)",
       "3 Spotlights for every 9 m²",
-      "Extra Spotlight: 75 LE",
-      "Single Print",
-      "Extra Banners: 80 EGP/m² (double print)",
     ],
     image: "/C.png",
   },
@@ -54,13 +51,7 @@ export const booths = [
     code: "E",
     name: "U Shape Economic Booth – Code E",
     sizes: ["3×3", "4×3", "5×3", "6×3", "7×3"],
-    specs: [
-      "U SHAPE BOOTH / Podium Included",
-      "3 Spotlights for every 9 m²",
-      "Extra Spotlight: 75 LE",
-      "Single Print",
-      "Extra Banners: 80 EGP/m² (double print)",
-    ],
+    specs: ["U SHAPE BOOTH / Podium Included", "3 Spotlights for every 9 m²"],
     image: "/E.png",
   },
 
@@ -131,7 +122,7 @@ export const booths = [
     code: "M",
     name: "Podium – Code M",
     sizes: ["90×130 CM"],
-    specs: ["Single Print with sign and lighting", "Price: 500 LE"],
+    specs: ["Single Print with sign and lighting"],
     image: "/M.png",
   },
 
@@ -166,11 +157,7 @@ export const booths = [
     code: "Q",
     name: "Pavilion – Code Q",
     sizes: ["3×3", "3×4"],
-    specs: [
-      "U SHAPE BOOTH / Podium Included",
-      "3 Spotlights for every 9 m²",
-      "Extra Spotlight: 75 LE",
-    ],
+    specs: ["U SHAPE BOOTH / Podium Included", "3 Spotlights for every 9 m²"],
     image: "/Q.jpg",
   },
 ];
